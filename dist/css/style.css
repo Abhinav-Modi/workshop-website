@@ -1,135 +1,128 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@400;500;600;700;800&family=Rubik:wght@400;500;600;700&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap");
 .navbar-menu {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .navbar-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  background: #000000;
-  height: 80px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	background: #000000;
+	height: 80px;
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.5rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5rem;
 }
 .navbar-logo {
-  font-size: 2rem;
-  padding: 0.2rem;
-  text-decoration: none;
-  cursor: pointer;
-  margin-left: 24px;
-  color: #b4eeb4;
+	font-size: 2rem;
+	padding: 0.2rem;
+	text-decoration: none;
+	cursor: pointer;
+	margin-left: 24px;
+	color: #b4eeb4;
 }
 .navbar-bars {
-  display: none;
-  cursor: pointer;
+	display: none;
+	cursor: pointer;
 }
 @media (max-width: 768px) {
-  .navbar-bars {
-    display: inline-block;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-  }
+	.navbar-bars {
+		display: inline-block;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
 }
 .navbar-menu {
-  text-align: center;
-  margin-right: 20px;
+	text-align: center;
+	margin-right: 20px;
 }
 @media (max-width: 768px) {
-  .navbar-menu {
-    display: none;
-  }
+	.navbar-menu {
+		display: none;
+	}
 }
 .navbar-links {
-  text-decoration: none;
-  padding: 0 1rem;
-  color: #ffffff;
-  transition: color 0.3s ease;
+	text-decoration: none;
+	padding: 0 1rem;
+	color: #ffffff;
+	transition: color 0.3s ease;
 }
 .navbar-links:hover {
-  color: #f5c275;
-  transition: color 0.3s ease;
+	color: #f5c275;
+	transition: color 0.3s ease;
 }
 
 .hero-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  justify-items: center;
-  margin: 0 auto;
-  height: 90vh;
-  width: 100%;
-  padding-left: 24px;
-  padding-right: 24px;
+	padding-top: 18rem;
+	height: 100vh;
 }
 @media (max-width: 768px) {
-  .hero-container {
-    grid-template-columns: 1fr;
-  }
+	.hero-container {
+		grid-template-columns: 1fr;
+	}
 }
-.hero-left {
-  width: 100%;
-  line-height: 1.2;
-  color: aliceblue;
-  padding-left: 10%;
-}
+
 @media (max-width: 768px) {
-  .hero-left {
-    margin-top: 100px;
-  }
+	.hero-left {
+		margin-top: 100px;
+	}
 }
 .hero-left h1 {
-  font-size: 5rem;
+	font-size: 5rem;
 }
 .hero-left h1 span {
-  color: #f5c275;
-  font-size: 5.5rem;
+	color: #f5c275;
+	font-size: 5.5rem;
 }
 @media (max-width: 768px) {
-  .hero-left h1 span {
-    font-size: 2.5rem;
-  }
+	.hero-left h1 span {
+		font-size: 2.5rem;
+	}
 }
-@media(max-width: 768px) and (min-width: 540px){
-  .img-responsive{
-    width:75% !important;
-  }
+@media (max-width: 768px) and (min-width: 540px) {
+	.img-responsive {
+		width: 75% !important;
+	}
 }
 @media (max-width: 768px) {
-  .hero-left h1 {
-    font-size: 2rem;
-  }
+	.hero-left h1 {
+		font-size: 2rem;
+	}
 }
 .hero-left h2 {
-  font-size: 2rem;
+	font-size: 2rem;
 }
 .hero-left h2 span {
-  color: #b4eeb4;
-  font-size: 2.5rem;
+	color: #b4eeb4;
+	font-size: 2.5rem;
 }
 @media (max-width: 768px) {
-  .hero-left h2 span {
-    font-size: 1.3rem;
-  }
+	.hero-left h2 span {
+		font-size: 1.3rem;
+	}
 }
 @media (max-width: 768px) {
-  .hero-left h2 {
-    font-size: 1rem;
-  }
- 
+	.hero-left h2 {
+		font-size: 1rem;
+	}
 }
-
+.hero-left h1 {
+	color: #ffffff;
+}
+.hero-left h2 {
+	color: #ffffff;
+}
 
 .hero-left p {
-  font-weight: 500;
-  margin-top: 1rem;
+	font-weight: 500;
+	margin-top: 1rem;
+	color: #ffffff;
 }
 /* .hero-btn {
   background: transparent;
@@ -139,88 +132,82 @@
   margin-top: 1.5rem;
 } */
 .hero-btn a {
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 400;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 400;
 }
 .hero-btn:hover {
-  background: #f5c275;
-  color: #000000;
-  transition: all 0.3s ease-in-out;
-  transform: scale(110%);
+	background: #f5c275;
+	color: #000000;
+	transition: all 0.3s ease-in-out;
+	transform: scale(110%);
 }
 .hero-btn:active {
-  background: #f5c275;
-  transition: all 0.2s ease-in-out;
-  transform: scale(95%);
+	background: #f5c275;
+	transition: all 0.2s ease-in-out;
+	transform: scale(95%);
 }
 /* .hero-img {
   height: 80%;
   width: 80%;
 } */
 
-
-
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-  background: linear-gradient(49deg, rgb(43, 43, 54) 0%, rgb(0, 0, 0) 90%);
-  height: 100vh;
-  overflow-x: hidden;
-  color: #ffffff;
-  font-family: "Work Sans", sans-serif;
+	background: linear-gradient(49deg, rgb(43, 43, 54) 0%, rgb(0, 0, 0) 90%);
+	height: 100vh;
+	overflow-x: hidden;
+	color: #ffffff;
+	font-family: "Work Sans", sans-serif;
 }
- 
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 /*section2*/
 
-.section2{
-  background: linear-gradient(49deg, rgb(43, 43, 54) 0%, rgb(0, 0, 0) 90%);
-  overflow: hidden;
-  margin-top: 4%;
-  color: #ffffff;
-  font-family: "Work Sans", sans-serif;
+.section2 {
+	background: linear-gradient(49deg, rgb(43, 43, 54) 0%, rgb(0, 0, 0) 90%);
+	overflow: hidden;
+	margin-top: 4%;
+	color: #ffffff;
+	font-family: "Work Sans", sans-serif;
 }
 
-
-.section3{
-  background: linear-gradient(49deg, rgb(43, 43, 54) 0%, rgb(0, 0, 0) 90%);
-  padding: 10%;
-  overflow: hidden;
-  color: #ffffff;
-  font-family: "Work Sans", sans-serif;
+.section3 {
+	background: linear-gradient(49deg, rgb(43, 43, 54) 0%, rgb(0, 0, 0) 90%);
+	padding: 10%;
+	overflow: hidden;
+	color: #ffffff;
+	font-family: "Work Sans", sans-serif;
 }
 
-.section4{
-  background: linear-gradient(49deg, rgb(43, 43, 54) 0%, rgb(0, 0, 0) 90%);
-  padding: 5%;
-  overflow: hidden;
-  color: black;
-  font-family: "Work Sans", sans-serif;
+.section4 {
+	background: linear-gradient(49deg, rgb(43, 43, 54) 0%, rgb(0, 0, 0) 90%);
+	padding: 5%;
+	overflow: hidden;
+	color: black;
+	font-family: "Work Sans", sans-serif;
 }
 
-#projlink{
-  color:aliceblue;
-  text-decoration: none;
+#projlink {
+	color: aliceblue;
+	text-decoration: none;
 }
 
-#accorditem
-{
-  background-color: black;
-  opacity: 0.7;
-  color:#ffffff
+#accorditem {
+	background-color: black;
+	opacity: 0.7;
+	color: #ffffff;
 }
 
-.card-link
-{
-  color:white ;
-  text-decoration: none;
+.card-link {
+	color: white;
+	text-decoration: none;
 }
